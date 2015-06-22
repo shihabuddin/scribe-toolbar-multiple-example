@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scribe Toolbar for multiple editor example</title>
+  <style type="text/css">
+    .scribe {
+      border: 1px solid lightgray;
+    }
+  </style>
+</head>
+<body>
+<div id="toolbar">
+  <button data-command-name="bold">bold</button>
+  <button data-command-name="italic">italic</button>
+  <button data-command-name="underline">underline</button>
+  <button data-command-name="superscript">superscript</button>
+  <button data-command-name="subscript">subscript</button>
+</div>
+
+<div>
+  <label for="title">Title</label>
+
+  <div id="title" class="scribe"></div>
+</div>
+
+<div>
+  <label for="summary">Summary</label>
+
+  <div id="summary" class="scribe"></div>
+</div>
+
+<div>
+  <label for="body">Body</label>
+
+  <div id="body" class="scribe"></div>
+</div>
+
+<script type="application/javascript" src="js/require.js"></script>
+<script type="application/javascript" src="js/script.js"></script>
+</body>
+</html>
